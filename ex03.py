@@ -24,11 +24,9 @@ for i in range(3):
     fones.append(fone)
   agenda[nome] = fones
 
-
-
-
-
 # listando a agenda
 for nome in agenda:
   print(f"{nome} -> {agenda[nome]}")
   
+# imprimir a agenda em dic
+print(agenda) 
