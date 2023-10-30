@@ -1,5 +1,6 @@
 #
-#
+# autor: Michel
+# data: 30/10/2023
 #
 # 1.	Em linguagem Python, faça um programa que leia um grupo de
 #  números inteiros, armazenando-o em uma lista (L1), calcular 
