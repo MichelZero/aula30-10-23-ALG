@@ -7,8 +7,10 @@
 # o quadrado dos elementos dessa lista, armazenando o resultado em 
 # oura lista (L2), imprimir todas as listas.
 
+
+# criando a lista vazia 
 lista1 = []
-valor = 1
+valor = 1 # valor diferente de 0 para entrar no while
 
 while (valor != 0):
   valor = int(input("Digite um número (0->Sair): "))

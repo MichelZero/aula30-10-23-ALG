@@ -8,8 +8,9 @@
 # imprima a lista e mostre o maior 
 # elemento e a posição que ele se encontra.
 
+# criando a lista vazia
 lista1 = []
-valor = 1
+valor = 1 # valor diferente de 0 para entrar no while
 
 while (valor != 0):
   valor = int(input("Digite um número (0->Sair): "))

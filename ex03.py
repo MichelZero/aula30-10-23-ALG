@@ -10,10 +10,10 @@
 # dos valores por meio de uma estrutura de repetição. Depois, crie 
 # uma estrutura de repetição para listar todos os contados da agenda.
 
-
-
-
+# criando a agenda (dicionário)
 agenda = dict()
+
+# lendo os contatos (nome e telefones)
 for i in range(3):
   nome = input(f"Digite o nome do contato[{i+1}]: ")
   fones = list()
@@ -21,8 +21,8 @@ for i in range(3):
     fone = input("Digite o telefone (0->Sair): ")
     if fone == "0":
       break
-    fones.append(fone)
-  agenda[nome] = fones
+    fones.append(fone) # adicionando o telefone na lista de telefones
+  agenda[nome] = fones # adicionando a lista de telefones no dicionário agenda
 
 # listando a agenda
 for nome in agenda:
